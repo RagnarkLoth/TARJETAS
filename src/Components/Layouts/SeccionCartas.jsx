@@ -16,8 +16,6 @@ const SeccionCartas = () => {
              imagen.push(document.querySelector("#" + tarjeta.nombre))
         )
 
-        console.log(imagen)
-
         if(cambio){
 
             imagen.forEach(element => {
