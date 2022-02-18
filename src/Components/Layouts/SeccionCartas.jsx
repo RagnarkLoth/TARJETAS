@@ -10,18 +10,27 @@ const SeccionCartas = () => {
 
     useEffect(() => {
         
-        
-        const imagen = document.querySelector("#idImagen")
+        const imagen = []
+    
+        tarjetasOne.map((tarjeta) => 
+             imagen.push(document.querySelector("#" + tarjeta.nombre))
+        )
+
+        console.log(imagen)
 
         if(cambio){
 
-            imagen.classList.remove("imagen")
-            imagen.classList.add("imagenPersonalizado")
+            imagen.forEach(element => {
+                element.classList.remove("imagen")
+                element.classList.add("imagenPersonalizado") 
+            });
 
         }else{
-
-            imagen.classList.remove("imagenPersonalizado")
-            imagen.classList.add("imagen")
+            
+            imagen.forEach(element => {
+                element.classList.remove("imagenPersonalizado")
+                element.classList.add("imagen")
+            })
         }
 
     },[cambio])

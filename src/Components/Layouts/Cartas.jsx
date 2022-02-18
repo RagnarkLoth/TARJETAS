@@ -10,7 +10,7 @@ const Cartas = ({tarjetas}) =>{
                         <div className="titulo">
                             <h1>{tarjeta.nombre}</h1>
                         </div>
-                        <img src={tarjeta.imagen} alt={tarjeta.nombre}  className="imagen" id="idImagen" />                    
+                        <img src={tarjeta.imagen} alt={tarjeta.nombre}  className="imagen" id={tarjeta.nombre} />                    
                     </div>
                 )
 
