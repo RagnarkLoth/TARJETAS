@@ -1,0 +1,20 @@
+{
+    "tarjetas": [
+        {
+            "id":1,
+            "nombre": "Saitama",
+            "imagen": "https://i.pinimg.com/originals/3d/cb/ac/3dcbac445e57977db9c548265af1be22.jpg"
+        },
+        {
+            "id":2,
+            "nombre": "Garou",
+            "imagen": "https://gcdn.lanetaneta.com/wp-content/uploads/2021/06/One-Punch-Man-estrena-la-nueva-y-monstruosa-forma-de-Garou-780x470.jpeg"
+        },
+        {
+            "id":3,
+            "nombre": "Blast",
+            "imagen": "https://www.beahero.gg/wp-content/uploads/2020/10/One-Punch-Man-blast-1.jpg"
+        }
+    ]
+
+}
